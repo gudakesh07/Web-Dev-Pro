@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* 1. Universal Selector */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 2. Type Selector */
+        p{
+            font-size: 16px;
+            /* margin: 10px 20px 10px 20px; */
+            /* padding: 1px 2px 3px 4px; */
+            margin-bottom: 10px;
+        }
+
+        /* 3. Class Selector */
+
+        .highlight {
+            background-color: aqua;
+        }
+
+        /* 4. ID Selector */
+
+        #header {
+            background-color: aquamarine;
+        }
+
+        /* 5. Attribute Selector */
+
+        input[type="text"] {
+            border: 1px solid green;
+        }
+
+        /* 6. Descendent Selector */
+
+          article p {
+            font-style: italic;
+            background-color: #1a1a1a;
+            color: 10px;
+          }
+
+        /* 7. Child Selector */
+
+        ul>li {
+            list-style-type: square;
+            background-color: orange;
+        }
+        /* Adjacent Sibling Selector */
+
+        h1 +p {
+            font-weight: bold;
+        }
+        /* General Sibling Selector */
+        h2 ~ p {
+            color: aquamarine;
+        }
+        /* 10.Pseudo-class Selector  */
+        a:hover {
+            background-color: #1a1a1a;
+            text-decoration: none;
+            color: #1a1a1a;
+            padding: 5px;
+            margin: 4px;
+        }
+
+        /* 11. Pesudo-element Selector  */
+        p::first-letter {
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        /* 12. Grouping Selector */
+        h1,h2,h3 {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
