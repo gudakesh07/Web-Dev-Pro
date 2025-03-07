@@ -1,38 +1,37 @@
-console.log("Hello World");
-// console.log("chai");
+console.log("Hello");
+// console.log("Baba");
+
 /*
-Data types in JavaScript
-
-string
-number
-boolean
-big int
-
-undefined
-null
-
-objects
-
-symbol
-
+comment
+block
 */
 
-// var score = 102;
+/*
+String
+Number
+Boolean
+Bigint
+
+Undefined
+Null
+
+object
+
+Symbol
+*/
+
+let a = 23;
+const b = "nika";
+var c = 45;
 
 let score = 102;
-
-console.log(score);
-
-let name= "Chaicode.com";
-
-let isloggedin = true;
+let name = "BabaYaga";
+let isloggedin = false;
 
 //object
 
-let teaTypes = ["lemon tea", "Orange tea", "Ginger tea"];
+let teatypes = ["green", "black", "white"];
+let username = { firstname: "Baba", lastname: "Yaga" };
 
-let user = {firstname: "Ritu", lastname: "Raj", age: 25};
-
-let getscore = score;
-
-console.log(user);
+let getScore = score;
+console.log(getScore);
