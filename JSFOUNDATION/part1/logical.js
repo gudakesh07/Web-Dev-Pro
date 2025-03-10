@@ -1,14 +1,18 @@
-// && --> and
-// || --> or
-// ! -> reverse
+// && -> and
+// || -> or
+// ! -> reverse the value
 
-let isloggedin = true
-let ispaid = true
+let isloggedin = true;
+let isverified = true;
+console.log(isloggedin && isverified);
+console.log(isloggedin || isverified);
+let a = !isloggedin
+console.log(!isloggedin);
+console.log(!isverified);
+console.log(a && isverified);
 
-console.log(isloggedin && ispaid) 
 
-
-let isEmailuser = true
-let isGoogleuser = false
+let isEmailuser = true;
+let isGoogleuser = false;
 
 console.log(isEmailuser || isGoogleuser)

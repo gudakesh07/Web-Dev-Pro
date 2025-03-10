@@ -21,3 +21,17 @@ x++;
 console.log(x);
 x--;
 console.log(x);
+
+// Comparision Operation
+
+let num1 = 3
+let num2 = 3
+let num3 = 4
+
+console.log(num1 == num2);
+console.log(num1 != num2);
+console.log(num2 <= num3);
+console.log(num2 >= num3);
+console.log(num2 > num3);
+console.log(num3 < num2);
+
