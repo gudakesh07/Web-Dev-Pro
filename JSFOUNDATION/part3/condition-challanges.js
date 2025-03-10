@@ -21,4 +21,33 @@ if (username == anotherUsername) {
     console.log("Username is available.")
 }
 
+// Checking if a variable is a number or not:
 
+let score = "40";
+
+if (typeof score == "number") {
+    console.log("The variable is a number.")
+} else {
+    console.log("The variable is not a number")
+}
+
+//  Check if a boolean value is true or false:
+
+let isTeaReady = true;
+
+if (isTeaReady) {
+    console.log("The tea is ready.");
+    
+} else {
+    console.log("The tea is not ready.");
+}
+
+// Checking if an array is empty or not:
+
+let items = ["Jkjk"];
+
+if (items.length == 0) {
+    console.log("The array is empty.");
+} else {
+    console.log('The array is not empty')
+}
