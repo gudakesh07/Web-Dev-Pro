@@ -64,5 +64,69 @@ console.log(teaOrders);
 
 let popularTeas = ["green tea", "oolong tea", "chai"];
 
+let softCopyTeas = popularTeas
 
+console.log(softCopyTeas);
+
+// in js when we say that go make a soft copy of the array you can just go and do it... as it'd not like variables where the value will change 
+// but in arrays the reference is direct to the the arrays for example
+// tea ----->Arrays
+/*
+Here when we create another variable named anotherTea and give it a value tea. Anothertea will refer to the array not
+
+*/
+
+/* 
+7. You have an array named `topCities` containing `"Berlin"`, `"Singapore"`, and `"New York"`. 
+   Create a hard copy of this array named `hardCopyCities`.
+*/
+
+let topCities = ["Berlin", "Singapore", "New York"]
+
+let hardCopyCities = [...topCities]
+
+let hardCopyCitiess = topCities.slice();
+
+console.log(hardCopyCities);
+console.log(hardCopyCitiess);
+
+/* 
+8. You have two arrays: `europeanCities` containing `"Paris"` and `"Rome"`, and `asianCities` containing `"Tokyo"` and `"Bangkok"`. 
+   Merge these two arrays into a new array named `worldCities`.
+*/
+
+let europeanCities = ["Paris", "Rome"];
+
+let asianCities = ["Tokyo", "Bangkok"];
+
+let worldCities = europeanCities.concat(asianCities);
+
+// let worldCities = [europeanCities, asianCities]
+
+// let Worldcities = europeanCities + asianCities;
+
+console.log(worldCities);
+
+/* 
+9. You have an array named `teaMenu` containing `"masala chai"`, `"oolong tea"`, `"green tea"`, and `"earl grey"`. 
+   Find the length of the array and store it in a variable named `menuLength`.
+*/
+
+let teaMenu = ["Masala Chai", "Oolong Tea", "Green Tea", "earl grey"];
+
+menuLength = teaMenu.length;
+
+console.log(menuLength);
+
+
+/* 
+10. You have an array named `cityBucketList` containing `"Kyoto"`, `"London"`, `"Cape Town"`, and `"Vancouver"`. 
+    Check if `"London"` is in the array and store the result in a variable named `isLondonInList`.
+*/
+
+let cityBucketList = ["Kyoto", "London", "Cape Town", "Vancouver"];
+
+let isLondonInList = cityBucketList.includes("london");
+
+console.log(isLondonInList);
 
