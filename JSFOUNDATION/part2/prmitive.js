@@ -1,18 +1,20 @@
 // Number
 
 let balance = 120;
-let anotherbalance = new Number(120);
+let anotherbalance = new Number(120);  // not recommended
 
 // console.log(balance);
 
 // console.log(anotherbalance)
 // console.log(anotherbalance.valueOf())
 
-console.log(typeof balance);
-console.log(typeof(anotherbalance))
+console.log(typeof balance); // number
+console.log(typeof (anotherbalance)) // object
 
 
-// String
+
+
+// Boolean
 
 let isActive = true
 let isReallyactive = new Boolean(true) // not recommended
@@ -20,9 +22,8 @@ let isReallyactive = new Boolean(true) // not recommended
 console.log(typeof (isActive))
 
 console.log(typeof(isReallyactive))
-
+ 
 // Null and Undefined
-
 let firstName;
 console.log(firstName);
 
